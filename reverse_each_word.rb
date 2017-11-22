@@ -1,3 +1,4 @@
+require 'pry'
 def reverse_each_word(string_to_reverse)
   new_string = ""
   string_to_reverse.split(",").each do |letter|
