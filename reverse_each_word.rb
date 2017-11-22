@@ -2,7 +2,7 @@
 def reverse_each_word(string_to_reverse)
   new_string = ""
   string_to_reverse.split(' ').each do |word|
-    word.split('').each {|letter| new_string.insert(0, letter)}
+    word.split('').each {|letter| new_string.insert(-1, letter)}
   end
   new_string
 end
