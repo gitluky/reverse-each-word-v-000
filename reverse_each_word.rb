@@ -7,7 +7,7 @@ end
 =end
 
 def reverse_each_word(string_to_reverse)
-  string_to_reverse.split('').reverse.map { |e| e}
+  string_to_reverse.split('').reverse.map { |e| e.join}
 end
 
 
