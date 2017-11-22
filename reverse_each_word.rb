@@ -12,4 +12,4 @@ end
 
 
 
-puts reverse_each_word("peanut")
+print reverse_each_word("peanut")
